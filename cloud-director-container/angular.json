@@ -17,6 +17,9 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "lazyModules": [
+              "src/plugins/rubrik-vcd-extension/src/main/rubrik.module"
+            ],
             "outputPath": "dist/cloud-director-container",
             "index": "src/index.html",
             "main": "src/main.ts",

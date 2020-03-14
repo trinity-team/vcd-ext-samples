@@ -15,5 +15,6 @@ export class PluginRegistration {
 };
 
 export const PLUGINS: PluginRegistration[] = [
-
+  new PluginRegistration('src/plugins/rubrik-vcd-extension/src', 'main/rubrik.module#RubrikModule', 'Rubrik Plugin')
 ];
+
